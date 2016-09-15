@@ -26,7 +26,7 @@ public class FixedStreamFeatureStatistics implements StreamFeatureStatistics, Se
 	private double m2 = 0.0;
 	/**
 	 * 某个特征值的统计变量更新方法
-	 * /
+	 */
 	public void update(double feature) {
 		this.count = this.count + 1;
 		double delta = feature - this.mean;
